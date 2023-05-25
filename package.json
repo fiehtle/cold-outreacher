@@ -1,13 +1,13 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "openai-gpt",
-  "version": "1.5.0",
   "title": "OpenAI GPT",
   "description": "Interact with OpenAI GPT AI",
   "icon": "openai-logo.png",
   "author": "simicvm",
   "contributors": [
-    "DorukAkinci"
+    "DorukAkinci",
+    "fiehtle"
   ],
   "categories": [
     "Productivity",
@@ -23,11 +23,11 @@
       "mode": "view",
       "preferences": [
         {
-          "name": "openAiApiKey",
-          "title": "OpenAI API Key",
           "description": "API Key is used to authenticate with OpenAI API",
-          "type": "password",
-          "required": true
+          "name": "openAiApiKey",
+          "required": true,
+          "title": "OpenAI API Key",
+          "type": "password"
         }
       ]
     }
